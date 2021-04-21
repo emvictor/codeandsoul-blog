@@ -9,7 +9,6 @@
           "hooks": "./src/hooks",
           "components": "./src/components",
           "containers": "./src/containers",
-          "globalStyles": "./src/globalstyles",
           "lib": "./src/lib"
         }
       }

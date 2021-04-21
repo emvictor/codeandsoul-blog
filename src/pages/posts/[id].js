@@ -7,8 +7,8 @@ export default function PostContent({ postsData }) {
       <Header />
       <Post>
         <Post.Item key={postsData.id}>
-          <Post.Title>{postsData.title}</Post.Title>;
-          <Post.Body>{postsData.body}</Post.Body>;
+          <Post.Title>{postsData.title}</Post.Title>
+          <Post.Body>{postsData.body}</Post.Body>
         </Post.Item>
       </Post>
     </>

@@ -1,4 +1,4 @@
-import { Inner, Item, Title, Body } from "./styles/post.styles";
+import { Inner, Item, Title, Body } from "../../styles/components/post.styles";
 
 export default function Posts({ children, ...props }) {
   return (
