@@ -14,7 +14,7 @@ export async function getPostsID() {
 
 export async function getPostData(postID) {
   const posts = await getPostsData();
-  const { userId, id, title, body } = posts[postID];
+  const { userId, id, title, body } = posts[postID - 1];
   return {
     userId,
     id,
