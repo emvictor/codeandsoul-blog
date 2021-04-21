@@ -1,5 +1,6 @@
 import { Post, Header } from "components";
 import { getPostsData } from "lib";
+import Link from "next/link";
 
 export default function Home({ postsData }) {
   return (
@@ -8,7 +9,9 @@ export default function Home({ postsData }) {
       <Post>
         {postsData.map((post) => (
           <Post.Item key={post.id}>
-            <Post.Title>{post.title}</Post.Title>
+            <Link href={`/posts/${post.id}`}>
+              <Post.Title>{post.title}</Post.Title>
+            </Link>
           </Post.Item>
         ))}
       </Post>
