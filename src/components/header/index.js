@@ -10,7 +10,7 @@ export default function Header(children, ...props) {
     <HeaderContainer>
       <Link href={"/"}>
         <a>
-          <Logo src="/images/logo.svg"></Logo>
+          <Logo src="/images/logo.svg" alt="Blog logo"></Logo>
         </a>
       </Link>
       <Link href={"/"}>
