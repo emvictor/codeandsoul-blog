@@ -14,11 +14,16 @@ export async function getPostsID() {
 
 export async function getPostData(postID) {
   const posts = await getPostsData();
-  const { userId, id, title, body } = posts[postID - 1];
+  const { id, title, body } = posts[postID - 1];
   return {
-    userId,
     id,
     title,
     body,
   };
+}
+
+export async function getFilteredPosts(id) {
+  const posts = await getPostsData();
+  const filteredPosts = posts.filter((post) => post.id !== id).slice(0, 4);
+  return filteredPosts;
 }

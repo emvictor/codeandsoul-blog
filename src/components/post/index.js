@@ -1,4 +1,10 @@
-import { Inner, Item, Title, Body } from "../../styles/components/post.styles";
+import {
+  Inner,
+  Item,
+  Title,
+  Body,
+  Container,
+} from "../../styles/components/post.styles";
 
 export default function Posts({ children, ...props }) {
   return (
@@ -20,4 +26,7 @@ Posts.Title = function PostsTitle({ children, ...props }) {
 };
 Posts.Body = function PostsBody({ children, ...props }) {
   return <Body {...props}>{children}</Body>;
+};
+Posts.Container = function PostsContainer({ children, ...props }) {
+  return <Container {...props}>{children}</Container>;
 };
