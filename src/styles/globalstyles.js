@@ -14,4 +14,10 @@ ${Reset}
     font-size: 1rem;
     margin: 0;
  }
+
+ .readmore-container{ 
+   padding: 0 10%;
+
+ }
+
 `;
