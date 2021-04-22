@@ -1,4 +1,4 @@
-import { Post, Header, ReadMore, Footer } from "components";
+import { Post, Header, ReadMore } from "components";
 import { getPostData, getPostsID, getFilteredPosts } from "lib";
 import Link from "next/link";
 export default function PostContent({ postsData, filteredPosts }) {
@@ -28,11 +28,6 @@ export default function PostContent({ postsData, filteredPosts }) {
           ))}
         </ReadMore>
       </div>
-      <Footer>
-        <Footer.Text>Footer</Footer.Text>
-        <Footer.Logo></Footer.Logo>
-        <Footer.Link>LINK</Footer.Link>
-      </Footer>
     </>
   );
 }
