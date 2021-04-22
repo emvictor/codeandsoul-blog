@@ -4,7 +4,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  background: black;
+  background: #11f;
 `;
 
 export const Logo = styled.img`
