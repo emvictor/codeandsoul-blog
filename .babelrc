@@ -1,3 +1,4 @@
+
 {
   "presets": ["next/babel"],
   "plugins": [
@@ -8,6 +9,7 @@
         "alias": {
           "hooks": "./src/hooks",
           "components": "./src/components",
+          "containers": "./src/containers",
           "lib": "./src/lib"
         }
       }

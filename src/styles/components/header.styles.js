@@ -24,3 +24,4 @@ export const Title = styled.h1`
   font-size: 1.25rem;
   margin-left: 1rem;
 `;
+

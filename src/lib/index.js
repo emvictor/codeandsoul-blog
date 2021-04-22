@@ -1,3 +1,4 @@
+
 import axios from "axios";
 
 const apiURL = "https://jsonplaceholder.typicode.com/posts";
@@ -27,3 +28,4 @@ export async function getFilteredPosts(id) {
   const filteredPosts = posts.filter((post) => post.id !== id).slice(0, 4);
   return filteredPosts;
 }
+
