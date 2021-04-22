@@ -1,34 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div style="font-size:20px">
+  <h1>NextJS Blog</h1>
+</div>
 
-## Getting Started
+# About The Project
 
-First, run the development server:
+## Preview
 
-```bash
-npm run dev
-# or
-yarn dev
+The project can be previewed on https://codeandsoul-blog-emvictor.vercel.app/
+
+<br/>
+
+## Overview
+
+This blog app is made with Next.js, Axios and styled-components.
+
+It shows all the posts from https://jsonplaceholder.typicode.com/posts with two different views.
+
+<br/>
+
+## Features
+
+### Next SSG
+
+With Next's SSG functionality, the app loads the posts pages almost instantaneously, being easier to make SEO improvements.
+
+### Post List
+
+The main view presents a post list with all the posts from the forementioned API separately and fully clickable.
+
+### Post Page
+
+The second view presents the post with Title, Body and presents a Read More section.
+
+### Read More
+
+The Read More section presents the four latest posts (based in the post id, but easily interchanged by editing the API) excluding the actual post showed on screen.
+
+### Responsive Design
+
+The app is fully responsive, working in both desktop and mobile.
+
+<br/>
+
+## Screenshots
+
+<br/>
+
+<img src="https://i.imgur.com/JgtYVjb.jpg" alt="Screenshot 1"
+width="350"
+height="200">
+
+<img src="https://i.imgur.com/satlOs2.jpg" alt="Screenshot 2"
+width="350"
+height="200">
+
+<img src="https://i.imgur.com/TeoOoE8.jpg" alt="Screenshot 3"
+width="234"
+height="318">
+
+<img src="https://i.imgur.com/yzDOHI9.jpg" alt="Screenshot 4"
+width="221"
+height="322">
+
+
+# Setting Up
+
+### Requirements
+
+- Node 14.4.x or up
+- Yarn (or npm)
+
+ <br/>
+
+### Installing the dependencies
+
+```
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Available Scripts
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+In the project directory, you can run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ <br/> 
+ 
+### `yarn dev`
 
-## Learn More
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To learn more about Next.js, take a look at the following resources:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ <br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `yarn build`
 
-## Deploy on Vercel
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
