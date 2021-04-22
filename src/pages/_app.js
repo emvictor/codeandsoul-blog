@@ -9,6 +9,9 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Blog example using next.js SSG and external API"
         />
+        <meta httpEquiv="Content-Type" content="text/html" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="./favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <GlobalStyles />
