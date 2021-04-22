@@ -5,7 +5,7 @@ import {
 } from "../../styles/components/header.styles";
 import Link from "next/link";
 
-export default function Header(children, ...props) {
+export default function Header({ children, ...props }) {
   return (
     <HeaderContainer>
       <Link href={"/"}>
