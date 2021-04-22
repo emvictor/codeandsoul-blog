@@ -7,11 +7,6 @@ export async function getPostsData() {
   return posts.data;
 }
 
-export async function getPostsID() {
-  const ids = await getPostsData();
-  return ids.map((i) => String(i.id));
-}
-
 export async function getPostData(postID) {
   const posts = await getPostsData();
   const { id, title, body } = posts[postID - 1];
@@ -20,6 +15,11 @@ export async function getPostData(postID) {
     title,
     body,
   };
+}
+
+export async function getPostsID() {
+  const ids = await getPostsData();
+  return ids.map((i) => String(i.id));
 }
 
 export async function getFilteredPosts(id) {
