@@ -15,7 +15,7 @@ export default function PostContent({ postsData, filteredPosts }) {
       </Post>
 
       <div className="readmore-container">
-        <ReadMore.Text>Read More:</ReadMore.Text>
+        <ReadMore.Text>Read More: </ReadMore.Text>
         <ReadMore>
           {filteredPosts.map((post) => (
             <ReadMore.Inner key={post.id}>
