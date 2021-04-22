@@ -6,7 +6,9 @@ import {
 } from "../../styles/components/readmore.styles";
 
 export default function ReadMore({ children, ...props }) {
-  return <Container {...props}>{children}</Container>;
+  return (
+    <Container {...props}>{children}</Container>
+  );
 }
 
 ReadMore.Text = function ReadMoreText({ children, ...props }) {
