@@ -22,7 +22,7 @@ It shows all the posts from https://jsonplaceholder.typicode.com/posts with two 
 
 ### Next SSG
 
-With Next's SSG functionality, the app loads the posts pages almost instantaneously, being easier to make SEO improvements.
+With Next's SSG functionality, the app loads the static posts' pages very fast, providig almost instantaneous navigation. It's also easier to make SEO improvements.
 
 ### Post List
 
