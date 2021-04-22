@@ -10,7 +10,9 @@ export default function Home({ postsData }) {
         {postsData.map((post) => (
           <Post.Item key={post.id}>
             <Link href={`/posts/${post.id}`}>
-              <Post.Title>{post.title}</Post.Title>
+              <a>
+                <Post.Title>{post.title}</Post.Title>
+              </a>
             </Link>
           </Post.Item>
         ))}
