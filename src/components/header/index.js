@@ -15,7 +15,7 @@ export default function Header(children, ...props) {
       </Link>
       <Link href={"/"}>
         <a>
-          <Title>Code and Soul Blog</Title>
+          <Title>Code and Soul</Title>
         </a>
       </Link>
     </HeaderContainer>
