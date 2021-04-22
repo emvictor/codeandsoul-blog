@@ -1,6 +1,7 @@
 import { Post, Header, ReadMore } from "components";
 import { getPostData, getPostsID, getFilteredPosts } from "lib";
 import Link from "next/link";
+
 export default function PostContent({ postsData, filteredPosts }) {
   return (
     <>
@@ -20,9 +21,7 @@ export default function PostContent({ postsData, filteredPosts }) {
           {filteredPosts.map((post) => (
             <ReadMore.Inner key={post.id}>
               <Link href={`/posts/${post.id}`}>
-                <a>
-                  <ReadMore.Post>{post.title}</ReadMore.Post>
-                </a>
+                <ReadMore.Post>{post.title}</ReadMore.Post>
               </Link>
             </ReadMore.Inner>
           ))}
