@@ -15,7 +15,6 @@ export const Logo = styled.img`
   height: 4rem;
   border-radius: 50%;
   margin: 0.5rem 0.5rem;
-
   @media screen and (max-width: 1100px) {
     height: 2.75rem;
   }

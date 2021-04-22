@@ -7,9 +7,7 @@ import {
 
 export default function ReadMore({ children, ...props }) {
   return (
-    <Container {...props}>
-      <Inner>{children}</Inner>
-    </Container>
+    <Container {...props}>{children}</Container>
   );
 }
 
