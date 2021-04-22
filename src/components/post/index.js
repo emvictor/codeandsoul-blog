@@ -8,7 +8,7 @@ import {
 
 export default function Posts({ children, ...props }) {
   return (
-    <Item>
+    <Item {...props}>
       <Inner>{children}</Inner>
     </Item>
   );

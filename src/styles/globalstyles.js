@@ -6,17 +6,17 @@ export const GlobalStyles = createGlobalStyle`
 ${Reset}
 
  html, body{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     font-size: 1rem;
     margin: 0;
  }
 
  .readmore-container{ 
-   padding: 0 10%;
+   padding: 3.125rem 10%;
 
  }
 
